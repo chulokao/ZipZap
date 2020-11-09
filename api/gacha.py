@@ -420,8 +420,8 @@ def draw():
             userPieceList.append(userPiece)
             directionType = 1
             if result['rank'][-1] == "4":
-                # give it the rainbow swirlies
-                directionType = 3
+                # give it the memoria equivalent of the rainbow swirlies
+                directionType = 2
             responseList.append({
                 "type": "PIECE",
                 "rarity": result['rank'],
