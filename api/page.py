@@ -20,6 +20,8 @@ def arenaFreeRank(response):
     response['userArenaBattleResultList']=dummyResponse['userArenaBattleResultList']
     response['userArenaBattleMatch']['matchedAt']=(datetime.now()).strftime('%Y/%m/%d %H:%M:%S')
     response['userArenaBattleMatch']['expiredAt']=(datetime.now()+timedelta(minutes=20)).strftime('%Y/%m/%d %H:%M:%S')
+
+
  #   response.update(dummyResponse)
 
 
